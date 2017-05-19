@@ -16,7 +16,7 @@ storage: sdcard-mmc0-usb-sd(adoptablesd=true,adoptableusb=false)
 display-density: default
 usb-gadget: g_ffs
 adb_net: true
-kernel: android_ia(loglevel=3)
+kernel: android_ia(loglevel=3, disable_cpuidle_on_boot=true)
 bluetooth: btusb
 boot-arch: android_ia
 audio: android_ia
